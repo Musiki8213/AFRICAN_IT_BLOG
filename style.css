@@ -1,0 +1,48 @@
+body {
+    background-color:#92a8d1
+
+; 
+}
+
+ #tittle{
+    color: #034f84;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align: center;
+   text-decoration: underline;
+  text-decoration-color: #034f84;
+}
+
+#img1,#img2,#img3,#img4{
+    height: 60% ;
+    width: 50%;
+}
+
+#fig1,#fig2,#fig3 ,#fig4{
+    font-size: large;
+    color: #034f84;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#btn{
+    color: #0077B6;
+    width: 30%;
+    
+   
+}
+.flex-container1,.flex-container2 {
+  display: flex;
+}
+
+.flex-container1,.flex-container2 > div{
+    margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+p{
+  color: #0077B6 ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-decoration: underline;
+  text-decoration-color: #0077B6;
+}
