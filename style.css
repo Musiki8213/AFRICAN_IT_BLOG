@@ -14,7 +14,14 @@ body {
 
 #img1,#img2,#img3,#img4{
     height: 60% ;
-    width: 50%;
+    width: 97%;
+}
+@media(max-width:600px){
+  #img1,#img2,#img3,#img4{
+    height: 60% ;
+    width: 100%;
+}
+
 }
 
 #fig1,#fig2,#fig3 ,#fig4{
@@ -26,23 +33,35 @@ body {
 }
 
 #btn{
-    color: #0077B6;
-    width: 30%;
-    
-   
+    color: #1b1649;
+   background-color: #457d9b;
+   justify-content: center;
+    height: 60% ;
+    width: 10%;
 }
-.flex-container1,.flex-container2 {
+.flex-container1{
   display: flex;
+  margin: 10px;
 }
 
-.flex-container1,.flex-container2 > div{
-    margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-}
+
+
 p{
-  color: #0077B6 ;
+  color: #104968 ;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-decoration: underline;
   text-decoration-color: #0077B6;
+}
+
+
+#nav1{
+   background-color: #0077B6;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+   color: white;
+  font-weight: bold;
+
 }
