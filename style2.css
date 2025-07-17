@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+  padding: 0;
+background-image: url('media/Linux-vs.-MacOS-vs.-Windows-OS.png');
+background-attachment: fixed;
+
+}
+#windowsSec h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(34, 41, 48);
+    font-style: italic;
+    
+}
+#windowsSec{
+    font-size: large;
+    color: #0f0900;
+}
+
+#comparingOS{
+    display: flex;
+    padding-left: 150px;
+}
+ul{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+}
+#linuxSec{
+    color: #0a0601;
+    font-size: large;
+}
+#linuxSec h2{
+    color: #000000;
+    font-style: italic;
+}
+
+#macosSec{
+   font-size: large;
+    color: rgb(0, 0, 0);
+}
+#macosSec h2{
+   font-style: italic;
+    color: rgb(0, 0, 0);
+}
+@media(min-width: 350px) and (max-width: 1400px){
+
+    body{
+    margin: 0;
+  padding: 0;
+background-image: url('media/Linux-vs.-MacOS-vs.-Windows-OS.png');
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+}
+#comparingOS{
+    display: flex;
+    padding-left: 50px;
+}
+
+#windowsSec{
+    font-size: medium;
+    color: #0f0900;
+}
+#macosSec{
+   font-size: medium;
+    color: rgb(0, 0, 0);
+}
+#linuxSec{
+    color: #0a0601;
+    font-size: medium;
+}
+}
