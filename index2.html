@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>OPERATONG SYSTEMS</title>
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
@@ -22,43 +22,66 @@
 <!-------------------------------------LINUX--------------------------------------->
    <section id="linuxSec">
    <h2>Linux</h2>
-
-   <ul>
-    <li><strong>Directory Structure</strong></li>
-    <ul>
+   <div id="div1">
+<div id="imgLinuxDiv">
+   <img id="linuxImg" src="media/linux.jpg" alt="linux">
+</div>
+   <ul id="detailsLinux">
+    <details>
+    
+    <summary><strong>Directory Structure</strong></summary>
+    <p>  <ul>
         <li>Organizes files and folders in a hierarchical structure.</li>
         <li>Uses a single root directory "/", from which all folders branch.</li>
         <li>Paths use forward slashes, for example "/home/user/file.txt".</li>
-    </ul>
-
-    <li><strong>Naming Conventions</strong></li>
-    <ul>
+    </ul></p>
+   </details>
+    
+  
+    <details>
+        <summary><strong>Naming Conventions</strong></summary>
+        <p> <ul>
         <li>Case-sensitive (e.g., "File.txt" and "file.txt" are different).</li>
         <li>Cannot use the forward slash "/" in file names.</li>
         <li>Filenames can contain most other characters, including spaces.</li>
     </ul>
-
-    <li><strong>File Systems</strong></li>
-    <ul>
+</p>
+    </details>
+   
+    <details>
+        <summary><strong>File Systems</strong></summary>
+        <p> <ul>
         <li>Common file systems include ext4, ext3, ext2.</li>
         <li>Also supports FAT32 and exFAT for external drives.</li>
         <li>FAT is still used in removable media and embedded systems.</li>
-    </ul>
+    </ul></p>
+    </details>
+   
+   
 
-    <li><strong>Executable File Types</strong></li>
-    <ul>
+    <details>
+        <summary><strong>Executable File Types</strong></summary>
+        <p><ul>
         <li>No specific extension is required for executables.</li>
         <li>Common script types: .sh, .py, .bin, .run.</li>
         <li>Files must have executable permissions set (e.g., chmod +x).</li>
-    </ul>
+    </ul></p>
+    </details>
+    
+    
 
-    <li><strong>Script Execution</strong></li>
-    <ul>
+    <details>
+        <summary><strong>Script Execution</strong></summary>
+        <p><ul>
         <li>Uses Terminal to run commands and scripts.</li>
         <li>Default shells include bash, zsh, or sh.</li>
         <li>Scripts are run with ./script.sh or using interpreter (e.g., bash script.sh).</li>
-    </ul>
+    </ul></p>
+    </details>
+    
+    
 </ul>
+</div>
 </section>
 
 
@@ -71,42 +94,62 @@
 
 <section id="macosSec">
      <h2>MacOS</h2>
-<ul>
-    <li><strong>Directory Structure</strong></li>
-    <ul>
+     <div id="div2">
+     <div id="imgMacOsDiv">
+   <img id="macOsImg" src="media/macos.png" alt="MacOS">
+</div>
+<ul id="detailsMacOs">
+<details>
+    <summary><strong>Directory Structure</strong></summary>
+    <p> <ul>
         <li>Organizes files in a hierarchical structure similar to Linux.</li>
         <li>Uses a single root directory "/", branching into folders like /Applications, /Users, /System.</li>
         <li>Paths use forward slashes, for example "/Users/username/Documents".</li>
-    </ul>
+    </ul></p>
+</details>
 
-    <li><strong>Naming Conventions</strong></li>
-    <ul>
+    <details>
+    <summary><strong>Naming Conventions</strong></summary>
+    <p><ul>
         <li>Not case-sensitive by default, but can be configured to be case-sensitive.</li>
         <li>Cannot use the colon ":" in file names.</li>
         <li>Allows most characters and supports long file names.</li>
     </ul>
-
-    <li><strong>File Systems</strong></li>
-    <ul>
+    </p>
+</details>
+    
+    <details>
+    <summary><strong>File Systems</strong></summary>
+    <p> <ul>
         <li>Uses APFS (Apple File System) by default.</li>
         <li>Also supports HFS+, FAT32, and exFAT for compatibility.</li>
         <li>FAT is used for external drives and shared devices.</li>
-    </ul>
+    </ul></p>
+</details>
+   
 
-    <li><strong>Executable File Types</strong></li>
-    <ul>
+    <details>
+    <summary><strong>Executable File Types</strong></summary>
+    <p> <ul>
         <li>Executables do not require specific extensions.</li>
         <li>Common script types: .command, .sh, .py.</li>
         <li>Files need execute permission set (e.g., chmod +x).</li>
     </ul>
-
-    <li><strong>Script Execution</strong></li>
-    <ul>
+</p>
+</details>
+   
+    <details>
+    <summary><strong>Script Execution</strong></summary>
+    <p><ul>
         <li>Uses the Terminal app to access the shell environment.</li>
         <li>Default shell is zsh (formerly bash).</li>
         <li>Scripts are run using ./script.sh or with an interpreter like bash or python.</li>
-    </ul>
+    </ul></p>
+  </details>
+    
+    
 </ul>
+</div>
 </section>
 
 
@@ -119,39 +162,69 @@
  <!-------------------------------------WINDOWS--------------------------------------->
         <section id="windowsSec">
        <h2>Windows</h2>
-       <ul>
-        <li><strong>Structure</strong> </li>
-        <ul>
+        <div id="div3">
+     <div id="imgWindowDiv">
+   <img id="windowsImg" src="media/windows.png" alt="WINDOWS">
+</div>
+       <ul id="detailsWindows">
+<details>
+    <summary><strong>Structure</strong></summary>
+    <p>  <ul>
             <li>Organizes files and folders in a hierarchical</li>
             <li>A disk designator with a backslash, for example "C:\" or "d:\". </li>
                 <li>A single backslash, for example, "\directory" or "\file. txt".</li> 
-        </ul>
+        </ul></p>
+</details>
+
         
-            <li><strong>Naming Conventions</strong></li>
-        <ul>
+      
+        <details>
+    <summary><strong>Naming Conventions</strong></summary>
+    <p>   <ul>
             <li>Not case-sensitive</li>
             <li>Cannot use characters like \ / : * ? " < > |</li>
             <li>Reserved names like CON, AUX, NUL not allowed.</li>
-        </ul>
-        <li><strong>File Systems</strong></li>
-        <ul>
+        </ul></p>
+</details>
+
+           
+     
+
+        <details>
+    <summary><strong>File Systems</strong></summary>
+    <p> <ul>
             <li>Uses NTFS, FAT32, and exFAT.</li>
             <li>FAT used in older systems and USB devices.</li>
-        </ul>
-        <li><strong>Executable File Types</strong></li>
-        <ul>
+        </ul></p>
+</details>
+
+   
+       
+        <details>
+    <summary><strong>Executable File Types</strong></summary>
+    <p> <ul>
             <li>.exe: Main executable file type.</li>
             <li>.bat: Batch script file, runs in Command Prompt (CMD).</li>
             <li>.msi: Microsoft Installer Package.</li>
             <li>.ps1: PowerShell script file.</li>
-        </ul>
-        <li><strong>Script Execution</strong></li>
-        <ul>
+        </ul></p>
+</details>
+
+     
+       
+        <details>
+    <summary><strong>Script Execution</strong></summary>
+    <p><ul>
             <li>CMD (Command Prompt): Older shell for .bat and .cmd files.</li>
             <li>PowerShell: Modern shell for .ps1 scripts; supports advanced scripting<br> and automation.</li>
             <li>Windows Terminal: Unified shell for CMD, PowerShell, and <br>WSL (Windows Subsystem for Linux).</li>
-        </ul>
+        </ul></p>
+</details>
+
+       
+        
     </ul>
+        </div>
     </section>
 
    <!-------------------------------------WINDOWS--------------------------------------->
@@ -170,5 +243,7 @@
 
 </div>
      <!--------------------------COMPARING OPERATING SYSTEMS WINDOWS MACOS LINUX--------------------------------------->
-</body>
+
+      <script src="script.js"></script>
+    </body>
 </html>

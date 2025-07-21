@@ -1,72 +1,151 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
   padding: 0;
-background-image: url('media/Linux-vs.-MacOS-vs.-Windows-OS.png');
-background-attachment: fixed;
+  background-image: url("media/Linux-vs.-MacOS-vs.-Windows-OS.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 
+  background-position: top;
 }
-#windowsSec h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(34, 41, 48);
-    font-style: italic;
-    
+#windowsSec h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(34, 41, 48);
+  font-style: italic;
 }
-#windowsSec{
-    font-size: large;
-    color: #0f0900;
+#windowsSec {
+  font-size: large;
+  color: #0f0900;
+  background: linear-gradient(to right, #dadfe091 10%, #f7e0b091);
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 1000px;
+  height: 500px;
 }
-
-#comparingOS{
-    display: flex;
-    padding-left: 150px;
-}
-ul{
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     
-}
-#linuxSec{
-    color: #0a0601;
-    font-size: large;
-}
-#linuxSec h2{
-    color: #000000;
-    font-style: italic;
+#windowsSec:hover,
+#macosSec:hover,
+#linuxSec:hover {
+  transform: translateY(-10px);
 }
 
-#macosSec{
-   font-size: large;
-    color: rgb(0, 0, 0);
+#comparingOS {
+  display: flex;
+  padding-left: 80px;
+  gap: 20px;
+  padding-top: 50px;
 }
-#macosSec h2{
-   font-style: italic;
-    color: rgb(0, 0, 0);
+ul {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-@media(min-width: 350px) and (max-width: 1400px){
+#linuxSec {
+  color: #000000;
+  font-size: large;
+  background: linear-gradient(to right, #f7e0b091, #f4f5e363 1%);
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 1000px;
+  height: 500px;
+}
+#linuxSec h2 {
+  color: #000000;
+  font-style: italic;
+}
 
-    body{
+#macosSec {
+  font-size: large;
+  color: #0e0d0d;
+  background: linear-gradient(to right, #f7e0b091, #f4f5e363);
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 1000px;
+  height: 500px;
+}
+#macosSec h2 {
+  font-style: italic;
+  color: rgb(0, 0, 0);
+}
+
+#linuxImg {
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#windowsImg {
+  width: 70%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#macOsImg {
+  width: 70%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+#detailsLinux {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  cursor: pointer;
+}
+#detailsMacOs {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  padding-right: 70px;
+  cursor: pointer;
+}
+#detailsWindows {
+  grid-column: 2/2;
+  grid-row: 1/2;
+  cursor: pointer;
+  padding-right: 70px;
+}
+ul {
+  color: rgb(28, 21, 71);
+}
+ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(221, 154, 55);
+}
+#div1 {
+  display: grid;
+  grid-template-columns: (auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+#div2 {
+  display: grid;
+  grid-template-columns: (auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+#div3 {
+  display: grid;
+  grid-template-columns: (auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 20px;
+}
+
+@media (min-width: 350px) and (max-width: 1400px) {
+  body {
     margin: 0;
-  padding: 0;
-background-image: url('media/Linux-vs.-MacOS-vs.-Windows-OS.png');
-background-size: 100%;
-background-repeat: no-repeat;
-background-attachment: fixed;
-
-}
-#comparingOS{
+    padding: 0;
+    background-image: url("media/Linux-vs.-MacOS-vs.-Windows-OS.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  #comparingOS {
     display: flex;
     padding-left: 50px;
-}
+  }
 
-#windowsSec{
+  #windowsSec {
     font-size: medium;
     color: #0f0900;
-}
-#macosSec{
-   font-size: medium;
+  }
+  #macosSec {
+    font-size: medium;
     color: rgb(0, 0, 0);
-}
-#linuxSec{
+  }
+  #linuxSec {
     color: #0a0601;
     font-size: medium;
-}
+  }
 }
