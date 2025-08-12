@@ -3,25 +3,25 @@
   <title>Home Page</title>
   <head>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <div id="sideMenu" class="side-slider">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeSlider()"
-        >&times;</a
-      >
-      <a href="#div1">WORKLOAD</a>
-      <a href="#div2">CYBERSECURITY</a>
-      <a href="#div3">CLOUD COMPUTING</a>
-      <a href="#div4">DIGITAL TRANSFORMATION</a>
-      <a href="index2.html" target="_blank">Comparing Oparing Systems</a>
-    </div>
-    <p id="slider" onclick="openSlider()">☰</p>
+    <nav>
+  <h1 id="tittle">Africa’s IT Challenges</h1>
+  <ul>
+    <li><a href="index.html"><img id="workloadIcon" src="media/workloadIcon-removebg-preview.png" alt="workloadIcon"/> WORKLOAD</a></li>
+    <li><a href="#div2"> <img id="cyberIcon" src="media/cyber-removebg-preview.png" alt="cyberIcon"/> CYBERSECURITY</a></li>
+    <li><a href="#div3"><img id="cloudIcon" src="media/cloud-software-icon-14.jpg" alt="cloudIcon"/> CLOUD COMPUTING</a></li>
+    <li id="digitalLink"><a href="#div4"><img id="digitalIcon" src="media/digitalIcon.png" alt="digitalIcon"/> DIGITAL TRANSFORMATION</a></li>
+  </ul>
+</nav>
 
-    <h1 id="tittle">CHALLENGES FACED BY IT PROFESSIONALS IN AFRICA</h1>
+    
 
     <div class="flex-container1">
       <div id="div1">
-        <img id="img1" src="media/workload.png" alt="Workload" />
+        <img id="img1" src="media/workload.webp" alt="Workload" />
       </div>
       <div id="work">
         <p>WORKLOAD</p>
@@ -36,7 +36,7 @@
     <br />
     <div class="flex-container2">
       <div id="div2">
-        <img id="img2" src="media/cybersecurity.png" alt="Cybersecurity" />
+        <img id="img2" src="media/cybersecurity.avif" alt="Cybersecurity" />
       </div>
       <div id="cyber">
         <p>CYBER SECURITY</p>
@@ -68,7 +68,7 @@
       <div id="div4">
         <img
           id="img4"
-          src="media/digitalTransformation.webp"
+          src="media/digitalTransformation.jpeg"
           alt="cloudComputing"
         />
       </div>
@@ -86,22 +86,30 @@
     <br />
     <br />
 
-    <div id="div13">
-      <button id="btn" onclick="doneAlert()">Done</button>
+    <div id="div13"><a href="index2.html" target="_blank">
+  <button id="btn">Comparing Operating Systems</button>
+</a>
+
     </div>
     <script src="script.js"></script>
 
     <footer>
       <p id="footer">&copy; 2025 By Musiki</p>
       <section id="section1">
-        <a href="#"><img id="icon1" src="media/youtube.png" alt="youtube" /></a>
+        <a href="#"><img id="icon1" src="media/youtube-removebg-preview.png" alt="youtube" /></a>
         <a href="#"
-          ><img id="icon2" src="media/facebook (1).png" alt="facebook"
+          ><img id="icon2" src="media/facebook-removebg-preview.png" alt="facebook"
         /></a>
         <a href="#"
-          ><img id="icon3" src="media/twitter.webp" alt="twitter"
+          ><img id="icon3" src="media/twitter.jpeg" alt="twitter"
         /></a>
       </section>
+       <ul>
+    <li><a href="index.html">WORKLOAD |</a></li>
+    <li><a href="#div2">CYBERSECURITY |</a></li>
+    <li><a href="#div3">CLOUD COMPUTING |</a></li>
+    <li><a href="#div4">DIGITAL TRANSFORMATION |</a></li>
+  </ul>
     </footer>
   </body>
 </html>
