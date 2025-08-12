@@ -1,51 +1,93 @@
+
 body {
- background-color: #359aa1;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', sans-serif;
+  background-image: url("media/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cyberIcon{
+  width: 8%;
+}
+#workloadIcon{
+  width: 10%;
+}
+#digitalIcon{
+  
+  width: 6%;
+}
+#cloudIcon{
+  width: 9%;
 }
 
-#tittle {
-  color: #f5f5f5;
-  text-align: center;
-  margin-top: 20px;
+ #tittle {
+  color: rgb(7, 7, 6); 
+  padding-left: 90px; 
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  position: fixed;
+  padding-right: 50px;
+  width: 100%;
+  padding-top: 20px;
+  backdrop-filter: blur(6px);
+  box-sizing: border-box; 
+}
+
+nav ul {
+  display: flex;
+  margin: 0;  
+  padding: 0; 
+  gap: 10px;
+  padding-top: 20px;
+}
+
+
+nav ul li {
+  list-style: none;
+  font-family: 'Poppins', sans-serif;
+  width: 190px;
   
 }
+#digitalLink{
+  width: 250px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav ul a:hover {
+  color: rgb(212, 166, 66);
+}
+
 
 #img1, #img2, #img3, #img4 {
- 
- width: 500px;
+  width: 500px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-@media (max-width: 600px) {
-  #img1, #img2, #img3, #img4 {
-    width: 100%;
-  }
-}
 
 #fig1, #fig2, #fig3, #fig4 {
-  font-size: x-large;
-  color: #f0f0f0;
-  font-weight: bold;
-  font-style: italic;
-  margin: 10px 0;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(56, 55, 51, 0.87);
+  padding: 5px;
+  border-radius: 5px;
+  font-size: large;
 }
-#fig1:hover{
-  background-color: #265466;
+
+#fig1:hover, #fig2:hover, #fig3:hover, #fig4:hover {
+  background-color: rgba(218, 223, 224, 0.57);
 }
-#fig2:hover{
-  background-color: #265466;
-}
-#fig3:hover{
-  background-color: #265466;
-}
-#fig4:hover{
-  background-color: #265466;
-}
+
 #btn {
-  color: #121212;
-  background-color: #00BFFF;
+  color: #ffffff;
+  background-color: black;
   border: none;
   padding: 10px 20px;
   font-weight: bold;
@@ -53,97 +95,95 @@ body {
   cursor: pointer;
   display: block;
   margin: 30px auto;
-  transition: 0.3s;
+  
 }
-#btn:hover {
-  background-color: #1E90FF;
+#div13 a{
+
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
 }
 
+#btn:hover {
+  transform: translateY(-5px); 
+  background-color: rgb(56, 55, 55);
+}
+
+
 .flex-container1 {
- 
   display: flex;
   gap: 20px;
-  padding: 30px;
   flex-wrap: wrap;
+  padding-left:180px;
+  padding-top: 200px;
 }
+
 .flex-container2{
   display: flex;
   gap: 20px;
   padding: 30px;
   flex-wrap: wrap;
+  padding-left:180px;
 }
+
 .flex-container3{
   display: flex;
   gap: 20px;
   padding: 30px;
   flex-wrap: wrap;
+  padding-left:180px;
 }
 
-.flex-container4{
+.flex-container4 {
   display: flex;
   gap: 20px;
+  padding: 30px;
   flex-wrap: wrap;
-  margin: 30px;
+  padding-left:180px;
 }
 
 
 p {
-  color: #09e9ec;
+  color: rgb(189, 146, 52);
   font-weight: bold;
   font-size: x-large;
+  
+  font-family: 'Poppins', sans-serif;
 }
 
-#icon1, #icon2, #icon3 {
+
+#icon1, 
+#icon2,
+ #icon3 {
   width: 30px;
   margin: 10px;
 }
 
+
 footer {
-  padding: 30px;
-  background-color: #2e8a9b;
-  color: #f0f0f0;
-  text-align: center;
+  background-color: rgba(218, 223, 224, 0.57);
+  color: rgba(244, 245, 227, 0.87);
+}
+footer ul {
+  display: flex;
+  gap: 10px;
 }
 
-.side-slider {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: #359aa1;
-  overflow-x: hidden;
-  transition: 0.4s;
-  z-index: 1000;
-}
-
-.side-slider a {
-  padding: 10px 30px;
+footer a{
   text-decoration: none;
-  font-size: 18px;
-  color: #f0f0f0;
-  display: block;
+  color: black;
+  font-family: 'Poppins', sans-serif;
 }
 
-.side-slider a:hover {
-  background-color: #50bcc4;
+footer ul a:hover{
+  color: rgb(75, 75, 75);
 }
 
-.side-slider .closebtn {
-  position: absolute;
-  top: 10px;
-  right: 5px;
-  font-size: 36px;
-  color: #f0f0f0;
+footer ul li {
+  list-style: none;
+  
 }
-#slider{
-  background-color: #4db7be;
-  padding: 10px;
-  border-radius: 15px;
-  width: 60px;
-  text-align: center;
-  color: #1a1a1a;
-}
-#footer{
-  color: #f0f0f0;
+@media (max-width: 600px) {
+  #img1, #img2, #img3, #img4 {
+    width: 100%;
+  }
 }
