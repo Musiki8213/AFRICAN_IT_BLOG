@@ -4,9 +4,8 @@ body {
   background-image: url("media/Linux-vs.-MacOS-vs.-Windows-OS.png");
   background-repeat: no-repeat;
   background-size: cover;
-
-  background-position: top;
 }
+
 #windowsSec h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: rgb(34, 41, 48);
@@ -18,7 +17,7 @@ body {
   background: linear-gradient(to right, #dadfe091 10%, #f7e0b091);
   border-radius: 20px;
   padding-left: 20px;
-  width: 1000px;
+  width: 1000px;                   
   height: 500px;
 }
 #windowsSec:hover,
